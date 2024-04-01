@@ -46,7 +46,7 @@ export default function Weather() {
           </a>
           <span>and is</span>
           <a
-            href="https://github.com/"
+            href="https://github.com/NyawiraGitaka/weather-react"
             target="_blank"
             rel="noopener noreferrer"
           >
