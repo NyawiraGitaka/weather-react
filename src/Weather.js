@@ -1,19 +1,20 @@
 import React from "react";
+import "./Weather.css";
 
 export default function Weather() {
   return (
     <div className="Weather">
       <header>
-        <form class="search-form">
+        <form className="search-form">
           <input
             type="search"
             id="city-input"
-            class="enter-city"
+            className="enter-city"
             placeholder="Enter a city.."
             required
             autofocus
           />
-          <input type="submit" value="Search" class="search-button" />
+          <input type="submit" value="Search" className="search-button" />
         </form>
       </header>
       <main>
@@ -27,9 +28,7 @@ export default function Weather() {
             </p>
           </div>
           <div className="currenttemp">
-            <span className="current-temp-emoji">
-              {" "} ☀️ {" "}
-            </span>
+            <span className="current-temp-emoji"> ☀️ </span>
             <span className="current-temp-value">24</span>
             <span className="current-temp-unit">°C </span>
           </div>
