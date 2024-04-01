@@ -28,7 +28,14 @@ export default function Weather() {
             </p>
           </div>
           <div className="currenttemp">
-            <span className="current-temp-emoji"> ☀️ </span>
+            <span
+              className="current-temp-emoji"
+              role="img"
+              aria-label="current"
+            >
+              {" "}
+              ☀️{" "}
+            </span>
             <span className="current-temp-value">24</span>
             <span className="current-temp-unit">°C </span>
           </div>
